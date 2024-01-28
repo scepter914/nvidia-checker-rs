@@ -1,0 +1,7 @@
+checked_time = ""
+os = "Ubuntu 22.04.1 LTS"
+kernel = "5.15.0-58-generic"
+nvidia_driver = "545.23.08"
+cuda = "cuda_12.3.r12.3"
+cudnn = "8.9.5.29-1+cuda12.2"
+tensorrt = "8.6.1.6-1+cuda12.0"
