@@ -8,7 +8,7 @@ description = "Check CLI for NVIDIA software environment"
 authors = ["scepter914 <scepter914@gmail.com>"]
 readme = "README.md"
 
-documentation = "https://docs.rs/nvidia-checker-rs"
+documentation = "https://docs.rs/nvidia-checker"
 repository = "https://github.com/scepter914/nvidia-checker-rs"
 categories = ["cli", "nvidia"]
 

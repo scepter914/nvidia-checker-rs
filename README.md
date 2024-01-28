@@ -4,8 +4,8 @@ The crate `nvidia-checker` is a checker CLI tool for nvidia software environment
 It can be used when developers want to use the same environment of nvidia software.
 
 - Supported feature
-  - [ x ] Check with specified version
-  - [  ] Check with specified version in range
+  - [x] Check with specified version
+  - [ ] Check with specified version in range
 - Document
   - [crates.io](https://crates.io/crates/nvidia-checker)
   - [docs.rs](https://docs.rs/nvidia-checker)
@@ -142,4 +142,4 @@ cargo run --release --bin nvidia-checker -- --diff ./config/test.toml
 - Next release
   - Update README
 - v0.1.0
-  - Published crate
+  - Published `nvidia-checker` crate
