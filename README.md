@@ -7,11 +7,15 @@ It can be used when developers want to use the same environment of nvidia softwa
   - [ x ] Check with specified version
   - [  ] Check with specified version in range
 - Document
-  - [crates.io](https://crates.io/nvidia-checker)
+  - [crates.io](https://crates.io/crates/nvidia-checker)
   - [docs.rs](https://docs.rs/nvidia-checker)
 
 ## Get started
 ### install
+
+- Install `cargo`
+  - Please see [document](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+- Install `nvidia-checker`
 
 ```
 cargo install nvidia-checker
