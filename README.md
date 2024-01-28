@@ -28,7 +28,7 @@ nvidia-checker
 - See [example config](./config/test.toml)
 
 ```sh
-nvidia-checker --diff test.toml
+nvidia-checker --diff ./config/test.toml
 ```
 
 - Output example
@@ -135,5 +135,7 @@ cargo run --release --bin nvidia-checker -- --diff ./config/test.toml
 
 ## History
 
+- Next release
+  - Update README
 - v0.1.0
   - Published crate
