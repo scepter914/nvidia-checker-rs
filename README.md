@@ -11,6 +11,12 @@ It can be used when developers want to use the same environment of nvidia softwa
   - [crates.io](https://crates.io/crates/nvidia-checker)
   - [docs.rs](https://docs.rs/nvidia-checker)
 
+## Use as library
+
+```
+nvidia-checker = "0.1.2"
+```
+
 ## Get started for CLI
 ### install
 
@@ -138,15 +144,10 @@ git clone https://github.com/scepter914/nvidia-checker-rs.git
 cargo run --release --bin nvidia-checker -- --diff ./config/test.toml
 ```
 
-## Use as library
-
-```
-nvidia-checker = "0.1.1"
-```
-
 ## History
 
 - Next release
+  - Update README
 - v0.1.2
   - Update cargo.toml
 - v0.1.1
