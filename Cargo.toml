@@ -1,6 +1,6 @@
 [package]
 name = "nvidia-checker"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 license = "MIT"
@@ -10,7 +10,8 @@ readme = "README.md"
 
 documentation = "https://docs.rs/nvidia-checker"
 repository = "https://github.com/scepter914/nvidia-checker-rs"
-categories = ["cli", "nvidia"]
+keywords = ["cli", "nvidia"]
+categories = ["command-line-interface"]
 
 [dependencies]
 carrot_utils = "0.1.5"

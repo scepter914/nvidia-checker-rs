@@ -147,6 +147,8 @@ nvidia-checker = "0.1.1"
 ## History
 
 - Next release
+- v0.1.2
+  - Update cargo.toml
 - v0.1.1
   - Arrange crate for library use
   - Update README
