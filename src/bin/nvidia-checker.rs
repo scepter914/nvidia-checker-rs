@@ -2,7 +2,6 @@ use carrot_utils::logger;
 use clap::ArgAction;
 use clap::Parser;
 use log::{info, LevelFilter};
-use serde_derive::{Deserialize, Serialize};
 use std::fs;
 use std::io::{Read, Write};
 
