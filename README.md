@@ -148,6 +148,8 @@ cargo run --release --bin nvidia-checker -- --diff ./config/test.toml
 
 - Next release
   - Update README
+- v0.1.3
+  - Fix bug
 - v0.1.2
   - Update cargo.toml
 - v0.1.1
