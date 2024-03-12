@@ -37,12 +37,6 @@ fn main() {
     fs::create_dir_all(&directory_path).unwrap();
     let latest_file_path = directory_path.join("latest.toml");
 
-    let mut latest_config_str = String::new();
-    fs::File::open(&latest_file_path)
-        .and_then(|mut f| f.read_to_string(&mut latest_config_str))
-        .unwrap();
-    let latest_environment: NvidiaEnvironment = toml::from_str(&latest_config_str).unwrap();
-
     info!("===== Start nvidia-checker =====");
 
     // Init Nvidia environment struct
@@ -53,6 +47,12 @@ fn main() {
 
     // Print the check of difference from the last run
     if args.latest {
+        let mut latest_config_str = String::new();
+        fs::File::open(&latest_file_path)
+            .and_then(|mut f| f.read_to_string(&mut latest_config_str))
+            .unwrap();
+        let latest_environment: NvidiaEnvironment = toml::from_str(&latest_config_str).unwrap();
+
         println!("Before checked at {}", &latest_environment.checked_time);
         now_environment.print_check_results(&latest_environment);
     }
